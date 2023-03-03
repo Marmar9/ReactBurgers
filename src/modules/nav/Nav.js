@@ -1,9 +1,6 @@
 import "./nav.css";
 function Nav() {
-  let navState = false;
-
   return {
-    navState,
     renderN: (
       <nav className="top">
         <menu>
@@ -31,13 +28,7 @@ function Nav() {
         </menu>
         <div className="box">
           <div className="log-in-out">
-            <button
-              className="login"
-              onClick={() => {
-                console.log(navState);
-                navState = true;
-              }}
-            >
+            <button className="login">
               <span>Login</span>
             </button>
             <button className="logout">
