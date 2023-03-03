@@ -1,3 +1,0 @@
-# Witam (:)
-
-# Oto druga zmiana

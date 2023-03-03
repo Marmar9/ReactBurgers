@@ -3,18 +3,13 @@ import Left from "./modules/left/Left";
 import LoginBox from "./modules/LoginBox/LoginBox";
 import Nav from "./modules/nav/Nav";
 import content from "./modules/content/Content";
-import { useState } from "react";
 function App() {
-  let [state, setState] = useState(false);
   let { renderC } = content();
-  let { renderN, navState } = Nav();
-  if (navState) {
-    setState(true);
-    navState = false;
-  }
+  let { renderN } = Nav();
+
   return (
     <div className="body">
-      <LoginBox triggered={state} />
+      <LoginBox triggered={false} />
       <Darken />
       <Left />
       <div className="main">
