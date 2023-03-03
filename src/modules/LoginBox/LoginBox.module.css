@@ -1,0 +1,79 @@
+div.loginBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 6;
+  top: 10px;
+  left: 500px;
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  background-color: var(--background);
+  border-radius: 1rem;
+  border: 1px solid var(--light-gray-border);
+}
+div.loginBox > .closeBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 0 0;
+}
+div.loginBox > .closeBox > .close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: none;
+  border-radius: 50%;
+  border: 1px solid var(--light-gray-border);
+}
+div.loginBox > .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 2rem;
+}
+
+div.loginBox > .form > .login {
+  width: 80%;
+  height: 40px;
+  border-radius: 1rem;
+}
+div.loginBox > .form > .login > input {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  border: 1px solid var(--light-gray-border);
+  color: black;
+}
+div.loginBox > .form > .password {
+  width: 80%;
+  height: 40px;
+}
+
+div.loginBox > .form > .password > input {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  border: 1px solid var(--light-gray-border);
+  color: black;
+}
+div.loginBox > .submitBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 1rem 0;
+}
+div.loginBox > .submitBox > .submit {
+  width: 50%;
+  height: 40px;
+  border-radius: 1rem;
+  border: solid 1px var(--green);
+  background-color: var(--light-green);
+  color: green;
+}

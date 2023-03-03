@@ -1,0 +1,38 @@
+@import url("https://necolas.github.io/normalize.css/7.0.0/normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Lilita + One&display=swap");
+:root {
+  --background: #ffffff;
+  --dark-green: #73a286;
+  --btn-click: #d7e9e1;
+  --green: #8db8a0;
+  --light-green: #e4efea;
+  --light-gray: #f3f3f3;
+  --light-gray-border: #eaeaea;
+  --light-red: #fef1ee;
+  --light-gray-burger: #f8f6f5;
+  --red: #f06d4e;
+  --darker-red: #d45133;
+}
+
+body,
+html {
+  margin: 0;
+}
+.body {
+  display: flex;
+}
+.left {
+  display: none;
+}
+
+@media (orientation: portrait) {
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 13;
+}

@@ -1,0 +1,80 @@
+div.burger-bigg {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  border: 1px solid #e0e0e0;
+  justify-content: center;
+  align-items: center;
+}
+
+div.burger-big-top {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+div.burger-big-top > .burger-big-circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 2.75rem;
+  left: 6rem;
+  border-radius: 50%;
+  background-color: var(--red);
+}
+div.burger-big-top > .burger-big-circle > span {
+  color: var(--light-red);
+}
+img {
+  width: 450px;
+}
+p {
+  text-align: center;
+}
+div.buy {
+  display: flex;
+}
+
+.burger-bigg > .buy {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.burger-bigg > .buy > .add-to-cart {
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 0.9rem;
+  background-color: var(--light-green);
+}
+
+.burger-bigg > .buy > .quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+  height: 40px;
+  background-color: var(--light-green);
+  border-radius: 0.9rem;
+}
+.burger-bigg > .buy > .quantity > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: var(--light-green);
+  border-radius: 50%;
+}
+.burger-bigg > .buy > .quantity > button > span {
+  color: var(--dark-green);
+}
+.burger-bigg > .buy > .add-to-cart > span {
+  color: var(--dark-green);
+}

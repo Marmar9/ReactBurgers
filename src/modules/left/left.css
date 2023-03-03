@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+nav.left {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  border-right: 1px solid var(--light-gray);
+}
+/* SearchArea */
+nav.left > div.search {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav.left > div.search > button {
+  border: none;
+  background-color: var(--background);
+  transform: scale(1.5);
+}
+/* MenuExpandButton */
+nav.left > div.bottom {
+  display: flex;
+  flex: 7;
+  justify-content: center;
+  align-items: center;
+}
+
+nav.left > div.bottom > button {
+  height: 100px;
+  width: 100px;
+  background-color: var(--background);
+  border: none;
+}
+
+nav.left > div.bottom > button > span {
+  font-size: 60px;
+  background-color: var(--light-gray);
+  border-radius: 1rem;
+}
+
+@media (orientation: portrait) {
+  nav.left {
+    display: none;
+  }
+}

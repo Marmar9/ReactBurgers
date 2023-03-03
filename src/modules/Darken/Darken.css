@@ -1,0 +1,8 @@
+.darken {
+  z-index: 3;
+  position: absolute;
+  background-color: black;
+  opacity: 55%;
+  width: 100vw;
+  height: 100vh;
+}

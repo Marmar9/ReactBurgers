@@ -1,0 +1,33 @@
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.content > .burger-small {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.content > .burger-big {
+  /* background-color: red; */
+  flex: 2;
+  border-radius: 1rem;
+  border: 1px solid #e0e0e0;
+}
+.content > .burger-small > .burger-small-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.content > .material-symbols-outlined {
+  font-size: 1rem;
+}
+@media (orientation: portrait) {
+  .content {
+    flex-direction: column;
+  }
+  .content > span {
+    display: none;
+  }
+}

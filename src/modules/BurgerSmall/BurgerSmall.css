@@ -1,0 +1,99 @@
+.burger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--light-gray);
+  border-radius: 2rem;
+}
+.burger > .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  border-radius: 1rem;
+}
+.burger > .top > .circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--light-green);
+  position: relative;
+  top: -0.7rem;
+}
+.burger > .top > .circle > span {
+  color: var(--dark-green);
+  font-size: 0.8rem;
+}
+.burger > img {
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+  position: relative;
+  top: 1rem;
+}
+
+.burger > .title {
+  height: 37px;
+}
+.burger > p {
+  font-size: 0.8rem;
+  text-align: center;
+}
+.burger > .buy {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.burger > .buy > .add-to-cart {
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 0.9rem;
+  background-color: var(--light-green);
+}
+
+.burger > .buy > .quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+  height: 40px;
+  background-color: var(--light-green);
+  border-radius: 0.9rem;
+}
+.burger > .buy > .quantity > button {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: var(--light-green);
+}
+.burger > .buy > .quantity > button:active {
+  background-color: var(--btn-click);
+}
+.burger > .buy > .quantity > button > span {
+  color: var(--dark-green);
+}
+.burger > .buy > .add-to-cart > span {
+  color: var(--dark-green);
+}
+/* .burger > .buy > .price {
+  height: 1rem;
+}
+.burger > .buy > span {
+  height: 1rem;
+} */
+/* @media (orientation: portrait) {
+  .burger > p {
+    display: none;
+  }
+} */
